@@ -1,0 +1,46 @@
+body{
+    font-family: sans-serif;
+    background-color: slategray;
+    box-sizing: border-box;
+}
+
+.container {
+    background: azure;
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    height: 300px;
+}
+.container h1{
+    text-align: center;
+}
+.field-wrapper {
+    background: beige;
+    border: 1px solid grey;
+}
+.field-wrapper select,
+.field-wrapper input {
+    font-size: 1rem;
+    padding: 7px 10px;
+    border: none;
+    background: transparent;
+}
+.field-wrapper input:focus{
+    outline: none;
+}
+.field-wrapper{
+    margin-top: 2rem;
+    width: 85%;
+}
+
+.arrow {
+    margin: auto;
+    display: table;
+    padding: 40px 0;
+}
+
+.arrow:before{
+    position: absolute;
+    content: "\2193";
+    font-size: 1.7rem;
+}
