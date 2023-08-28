@@ -42,9 +42,8 @@ const getExchangeRate = async () => {
   const conversionRate = data.rates[toCurrency];
   const convertedAmount = amount * conversionRate;
   convertedAmountElement.value = convertedAmount;
-  console.log(convertedAmount);
+//   console.log(convertedAmount);
 };
 
 // Call the function initially or attach it to a user-triggered event
-
 toCurrencyElement.addEventListener("change", getExchangeRate);
